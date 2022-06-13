@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Counter</h1>
+    <p style="text-align: center;">{{session["num_of_visits"]}} Views</p>
+    <div class="buttons" style="display: flex; justify-content:space-between; margin: 0 auto; width:300px;">
+        <a href="/counter">
+            <button type="button" >Click</button>
+        </a>
+        <a href="/destroy_session">
+            <button style="background-color: red; color: white;">Reset</button>
+        </a>
+        <a href="/add_session">
+            <button type="button"> Add 2 </button>
+        </a>  
+    </div>
+</body>
+</html>
